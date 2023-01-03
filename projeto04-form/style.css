@@ -67,16 +67,11 @@ body {
   background-color: var(--cor01);
 }
 
-.page {
-  margin: auto;
-}
-
 #my-form {
   background-color: var(--cor03);
   max-width: 750px;
   max-height: 1075px;
   margin: auto;
-  border: 1px solid black;
   border-radius: 0 0 20px 20px;
 }
 
