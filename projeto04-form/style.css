@@ -18,24 +18,65 @@
   box-sizing: border-box;
 }
 
-body::before {
-  content: '';
-
-  width: 100%;
-  height: 360px;
+header {
   background-color: var(--cor0);
+  width: 1440px;
+  height: 465px;
 
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
+  display: flex;
+  flex-direction: column;
+}
+
+header h1 {
+  text-align: center;
+  color: var(--cor03);
+  font-family: var(--font0);
+  font-size: 36px;
+  line-height: 45px;
+  padding-top: 100px;
+}
+
+header p {
+  text-align: center;
+  color: var(--cor03);
+  font-family: var(--fonte01);
+  line-height: 24px;
+}
+
+.img-header {
+  margin: auto;
+}
+
+#top {
+  width: 750px;
+  height: 133px;
+  background-color: var(--cor02);
+  border-radius: 20px 20px 0 0;
+  margin: 0 auto;
+}
+
+#top legend {
+  text-align: center;
+  color: white;
+  font-family: var(--font0);
+  font-size: 24px;
+  margin: 50px auto;
 }
 
 body {
   background-color: var(--cor01);
 }
 
-main {
+.page {
+  margin: auto;
+}
+
+#my-form {
   background-color: var(--cor03);
+  max-width: 750px;
+  max-height: 1075px;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 0 0 20px 20px;
 }
 
