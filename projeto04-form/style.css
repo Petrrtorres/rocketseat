@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap');
+
+:root {
+  --cor0: #293241;
+  --cor01: #BFD7E4;
+  --cor02: #F67669;
+  --cor03: #FFFFFF;
+
+  --font0: 'Staatliches', 'cursive', sans-serif;
+  --fonte01: 'Poppins', sans-serif;
+}
+
