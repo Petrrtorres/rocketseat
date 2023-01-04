@@ -20,7 +20,7 @@
 
 header {
   background-color: var(--cor0);
-  width: 1440px;
+  width: 100%;
   height: 465px;
 
   display: flex;
@@ -55,7 +55,7 @@ header p {
   margin: 0 auto;
 }
 
-#top legend {
+#top p {
   text-align: center;
   color: white;
   font-family: var(--font0);
@@ -73,5 +73,56 @@ body {
   max-height: 1075px;
   margin: auto;
   border-radius: 0 0 20px 20px;
+  padding: 30px 64px;
 }
+
+fieldset {
+  border: none;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  font-family: var(--fonte01);
+  font-size: 14px;
+  line-height: 24px;
+
+
+  margin-bottom: 30px;
+}
+
+.form-wrapper label {
+  padding: 15px;
+}
+
+.form-wrapper span {
+  color: #C1BCCC;
+}
+
+.form-wrapper span:hover {
+  color: black;
+}
+
+.form-wrapper input {
+  padding: 10px;
+  width: 100%;
+
+  border-radius: 8px;
+  border: 1px solid #E6E6F0;
+  background: #FAFAFC;
+}
+
+legend {
+  font-family: var(--font0);
+  color: var(--cor0);
+  font-size: 24px;
+  text-align: center;
+
+
+  border-bottom: 1px solid #E6E6F0;
+  width: 100%;
+  margin: auto;
+}
+
 

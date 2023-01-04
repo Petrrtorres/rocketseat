@@ -19,26 +19,42 @@
     </div>
 
     <div id="top">
-    <legend>Informações Pessoais</legend>
+    <p>Informações Pessoais</p>
     </div>
   </header>
     
       <form id="my-form">
         <fieldset>
-          <div class="form-wrapper">  
-                <div class="column1">
-                  <label for="name">Nome</label>
-                  <input type="text" name="name" id="my-form">
-                </div>
-      
-                  <label for="last-name">Sobrenome</label>
-                  <input type="text" name="last-name" id="my-form">
-      
-                  <label for="email">Email <span>(digite um email válido)</span></label>
-                  <input type="email">
-          </fieldset>
+          <div class="column1">
+              <div class="form-wrapper">                       
+                      <label for="name">Nome</label>
+                     <input type="text" name="name" id="name">
+                     <label for="last-name">Sobrenome</label>
+                     <input type="text" name="last-name">
+              </div>
+          </div>      
+                    <div class="form-wrapper">                   
+                        <label for="email">Email <span>(digite um email válido)</span></label>
+                        <input type="email" name="email">
+                    </div>
+        </fieldset>
           </div>
+          
+          <fieldset>
+            <legend>Informações do Mentor</legend>
+            <div class="form-wrapper">
+              <label for="mentor">Selecione quem foi seu mentor</label>
+              <input type="text" name="mentor">
+              </div>
+
+            <div class="form-wrapper">
+              <label for="feedback">Feedback sobre o mentor</label>
+              <textarea name="feedback" cols="30" rows="10"></textarea>
+            </div>
+    
+            </div>
+          </fieldset>          
       </form>
-  
+
 </body>
 </html>
