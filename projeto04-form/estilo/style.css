@@ -159,4 +159,10 @@ span:hover {
   font-size: 20px;
 
   margin: 40px auto;
+
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #a7463b;
 }
