@@ -96,4 +96,30 @@ ul li span {
   color: #090039;
 }
 
+@media (min-width: 700px) {
+  body {
+    padding-top: 8.0rem;
+  }
+
+  main {
+    max-width: 1020px;
+    display: flex;
+    gap: 10rem;
+  }
+
+  main > div /*primeira div*/ {
+    max-width: 484px;
+  }
+
+  ul li {
+    gap: 5.3rem;
+    max-width: 400px;
+    align-items: center;
+  }
+
+  ul li:nth-child(2) {
+    margin: 3.2rem 0;
+  }
+}
+
 
