@@ -34,6 +34,8 @@ body {
 main {
   display: grid;
   gap: 3.2rem;
+
+  animation: bottop 700ms 300ms backwards;
 }
 
 .page {
@@ -52,6 +54,8 @@ header {
   color: var(--fc-primary);
 
   text-align: center;
+
+  animation: topbot 700ms;
 }
 
 header p {
@@ -120,5 +124,28 @@ header h1 {
 
   display: inline-flex;
   align-items: center;
+}
 
+@keyframes topbot {
+  0% {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bottop {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+  }  
+  
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
