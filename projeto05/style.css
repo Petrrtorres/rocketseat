@@ -21,6 +21,8 @@
   font-size: 62.5%;
   --fs-body: 1.6rem;
   --fs-header: clamp(4rem, 1rem + 5vw, 5.6rem);
+  --fs-header-sm: clamp(3rem, 0.5rem + 3vw, 4rem);
+
 }
 
 body {
@@ -153,10 +155,6 @@ header h1 {
 }
 
   @media (min-width: 700px) {
-    :root {
-      --fs-header: 5.6rem;
-    }
-    
     .page {
       max-width: 117rem;
   
